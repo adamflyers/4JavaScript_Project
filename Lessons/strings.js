@@ -22,3 +22,4 @@ data = true.toString();
 console.log(data);
 console.log(typeof data);
 console.log(data.length);
+console.log(data.toFixed(2))
