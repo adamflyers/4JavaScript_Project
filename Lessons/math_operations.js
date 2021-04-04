@@ -17,11 +17,10 @@ sonuc8 = sayi1 --;
 sonuc9 = --sayi1;
 
 console.log(sonuc1);
-console.log(sonuc2);
-console.log(sonuc3);
-console.log(sonuc4);
-console.log(sonuc5);
-console.log(sonuc6);
-console.log(sonuc7);
-console.log(sonuc8);
-console.log(sonuc9);
+
+//Sayıları Yuvarlama Fonksiyonları
+sonuc = Math.ceil(3.8);
+sonuc = Math.floor(3.8);
+sonuc = Math.round(3.7);
+
+sonuc = Math.round(Math.random()*10);
