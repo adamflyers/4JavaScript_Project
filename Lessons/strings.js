@@ -1,40 +1,24 @@
-let data;
+//Stringler ve String Metodları
 
-//number --> String
-data = 20;
-data = String(20);
-data = String(5 + 5);
+// Concat           -->(Birleştirme)
+// Length           --> Karakter Sayısı
+// Style Metodları  -->toUppercase, toLowercase
+// indexOf          --> Değerin sırasını döndürür
+// lastindexOf      --> Değerin sondan sırasını döndürür
+// charAt()         --> indise göre döndürür
+// substring        --> iki parfametre arası değeri döndürür
+// slice            --> iki parametre arası değeri döndürür
+// splice           --> stringleri diziye döndürür
+// split            --> stringleri diziye değiştirir
+// replace          --> stringleri değiştirir
+// include          --> String var mı yok mu denetler
 
-//Bool --> String
-data = false;
-data = String(false)
+const isim = "Fikret";
+const yas = 38;
+const cumle = "Lorem ipsum dolor amet";
 
-//Dates --> String
-data = String (new Date());
+let sonuc;
 
-//Array --> String
-data = String([0, 1, 2, 3]);
+sonuc = cumle.substring(3, 5)
 
-data = (5).toString();
-data = true.toString();
-
-//Boolean --> Number
-data = Number(false)
-
-//Null --> Number
-data =  Number(null)
-
-
-//Array --> Number
-data = Number([2, 1])
-
-//Float -->Number
-data = parseInt("1.2")
-data = parseFloat("1.5")
-
-
-// Output
-console.log(data);
-console.log(typeof data);
-console.log(data.length);
-console.log(data.toFixed(2))
+console.log(sonuc)
