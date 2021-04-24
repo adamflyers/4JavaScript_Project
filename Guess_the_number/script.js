@@ -41,7 +41,6 @@ if (number == guessedNumber) {
 
 }
 
-
 //play again
 
 //Assign new number for next game
@@ -55,10 +54,14 @@ else-if (guessedNumber.indexof(".") || guessedNumber.indexof(",")) {
     answer.innerText = "This is not a natural number"
 }
 
+
 //check lower number
+
 
 //Check higher number
 
+
 //Otherwise
+
 
 //Reset and focus
