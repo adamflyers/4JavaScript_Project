@@ -43,11 +43,15 @@ if (number == guessedNumber) {
 
 //play again
 
+
 //Assign new number for next game
+
 
 //Thanks for participating
 
+
 //Check number 1-100 and exist
+
 
 //Check valid number
 else-if (guessedNumber.indexof(".") || guessedNumber.indexof(",")) {
@@ -58,10 +62,14 @@ else-if (guessedNumber.indexof(".") || guessedNumber.indexof(",")) {
 //check lower number
 
 
+
 //Check higher number
 
 
+
 //Otherwise
+
+
 
 
 //Reset and focus
