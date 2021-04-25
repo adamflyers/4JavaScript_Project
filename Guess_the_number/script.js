@@ -58,17 +58,13 @@ else-if (guessedNumber.indexof(".") || guessedNumber.indexof(",")) {
     answer.innerText = "This is not a natural number"
 }
 
-
 //check lower number
-
 
 
 //Check higher number
 
 
-
 //Otherwise
-
 
 
 
