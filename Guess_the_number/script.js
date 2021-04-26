@@ -67,5 +67,4 @@ else-if (guessedNumber.indexof(".") || guessedNumber.indexof(",")) {
 //Otherwise
 
 
-
 //Reset and focus
