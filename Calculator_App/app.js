@@ -62,15 +62,19 @@ function ChooseOperation(selectedOperation){
 additionButton.addEventListener("click", ()=> {
    ChooseOperation("+");
 })
+
 subtractionButton.addEventListener("click", ()=> {
     ChooseOperation("-");
 })
+
 multiplaictionButton.addEventListener("click", ()=> {
     ChooseOperation("*");
 })
+
 divisionButton.addEventListener("click", ()=> {
     ChooseOperation("/");
 })
+
 equalButton.addEventListener("click", ()=> {
     console.log("equalButton")
 }
