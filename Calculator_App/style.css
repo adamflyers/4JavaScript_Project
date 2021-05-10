@@ -1,5 +1,4 @@
-*, *::before, *::after {
-    box-sizing: border-box;
+*, *::before, *::after  box-sizing: border-box;
     margin: 0;
     padding: 0;
     user-select: none;
@@ -34,6 +33,7 @@
     flex-direction: column;
     justify-content: space-evenly;
   }
+  
   .previous-display {
     opacity: 0.5;
     font-size: 50px;
