@@ -79,7 +79,6 @@ equalButton.addEventListener("click", ()=> {
     console.log("equalButton")
 }
 
-
 // Add event Listerner to top buttons
 
 // Add event Listerner to numbers buttons
