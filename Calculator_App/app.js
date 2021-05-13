@@ -59,6 +59,7 @@ function ChooseOperation(selectedOperation){
 }
 
 // Add event Listerner to operators buttons
+
 additionButton.addEventListener("click", ()=> {
    ChooseOperation("+");
 })
