@@ -42,6 +42,7 @@ let previousOperand = "123";
 let currentOperand = "987"
 
 // Functions
+
 function DisplayNumber(){
     previousElement.innerText = previousOperand;
     currentElement.innerText = currentOperand;
