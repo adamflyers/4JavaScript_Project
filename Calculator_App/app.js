@@ -12,7 +12,6 @@ const multiplicationButton = querySelector(".multiplication")
 const divisionButton = querySelector(".division")
 const equalButton = querySelector(".equal")
 
-
 const decimalButton = document.querySelector(".decimal")
 const number0 = document.querySelector(".number-0")
 const number1 = document.querySelector(".number-1")
