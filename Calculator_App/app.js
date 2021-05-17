@@ -24,7 +24,6 @@ const number7 = document.querySelector(".number-7")
 const number8 = document.querySelector(".number-8")
 const number9 = document.querySelector(".number-9")
 
-
 const numberArray = [
     number0,
     number1,
