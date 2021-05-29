@@ -3,6 +3,7 @@ const colors = ["red", "yellow", "blue", "gray"];
 const addColorButton = document.querySelector("#setColorButton");
 const randomColorButton = document.querySelector("#randomColorButton");
 
+
 addColorButton.addEventListener("click", addColor);
 randomColorButton.addEventListener("click", changeColors);
 
