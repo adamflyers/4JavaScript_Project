@@ -16,6 +16,15 @@ function changeColors() {
 
 function addColor() {
     const userInput = document.querySelector(".colorInput");
+
+    const colorData = userInput.value.split(":");
+    
+    const colorObbject = {
+        name: colorData[0],
+        motto: colorData[1],
+    };
+
+
     
     if(colors.indexOf(userInput.value) === -1) {
     document.querySelector("body").style.backgroundColor = userInput.value;
