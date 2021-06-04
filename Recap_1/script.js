@@ -35,8 +35,9 @@ randomColorButton.addEventListener("click", changeColors);
 function changeColors() {
     const randomIndex = Math.floor(Math.random()*colors.length);
 
-    document.querySelector("#colorName").textContent = colors[randomIndex];
-    document.querySelector("body").style.backgroundColor = colors[randomIndex]
+    document.querySelector("#colorName").textContent = colors[randomIndex].name;
+    document.querySelector("#colorDesc").textContent = colors[randomIndex].motto;
+    document.querySelector("body").style.backgroundColor = colors[randomIndex].name;
 } 
 
 // 2) Kullanıcının girdiği string'i renk listesine eklemek ve arkaplanı o renk yapmak
@@ -46,17 +47,26 @@ function addColor() {
 
     const colorData = userInput.value.split(":");
     
-    const colorObbject = {
+    const colorObject = {
         name: colorData[0],
         motto: colorData[1],
     };
 
-
-
-    if(colors.indexOf(userInput.value) === -1) {
-    document.querySelector("body").style.backgroundColor = userInput.value;
-    colors.push(userInput.value);
+    
+    // indexOf SADECE flat array (["red", "blue", "gray"] / [1 ,2 ,3]) için geçerlidir.
+    // findIndexxOf Object Array'ler [{},{}] için geçerlidir.
+    
+    const searchedColorIndex = colors.findIndex(
+        (myColor) => myColor.name === colorObject);
+    if(searchedColorIndex === -1) {
+        document.querySelector("body").style.backgroundColor = colorObject.name;
+        document.querySelector("#colorName").textContent = colorObject.name;
+        document.querySelector("#colorName").textContent = colorObject.motto;
+        
+        colors.push(colorObject);
+        userInput.value = "";
+        userInput.focus();
     } else {
-        alert("renk zaten mevcut")
+        alert("renk zaten mevcut");
     }
 }
