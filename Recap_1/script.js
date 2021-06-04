@@ -1,5 +1,30 @@
 const colors = ["red", "yellow", "blue", "gray"];
 
+// Change Colors!
+
+const colors = [
+    {
+        name: "red",
+        motto: "Rose Red",
+    },
+    {
+        name: "blue",
+        motto: "Ocean Blue",
+    },
+    {
+        name: "gray",
+        motto: "Smoke Gray",
+    },
+    {
+        name: "green",
+        motto: "Grass Green",
+    },
+    {
+        name: "purple",
+        motto: "Deep Purple",
+    },
+]
+
 const addColorButton = document.querySelector("#setColorButton");
 const randomColorButton = document.querySelector("#randomColorButton");
 
