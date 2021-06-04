@@ -1,5 +1,3 @@
-const colors = ["red", "yellow", "blue", "gray"];
-
 // Change Colors!
 
 const colors = [
@@ -23,7 +21,7 @@ const colors = [
         name: "purple",
         motto: "Deep Purple",
     },
-]
+];
 
 const addColorButton = document.querySelector("#setColorButton");
 const randomColorButton = document.querySelector("#randomColorButton");
