@@ -52,13 +52,12 @@ function addColor() {
         motto: colorData[1],
     };
 
-    
     // indexOf SADECE flat array (["red", "blue", "gray"] / [1 ,2 ,3]) için geçerlidir.
     // findIndexxOf Object Array'ler [{},{}] için geçerlidir.
     
     const searchedColorIndex = colors.findIndex(
         (myColor) => myColor.name === colorObject);
-        
+
     if(searchedColorIndex === -1) {
         document.querySelector("body").style.backgroundColor = colorObject.name;
         document.querySelector("#colorName").textContent = colorObject.name;
