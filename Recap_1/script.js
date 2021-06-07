@@ -52,7 +52,6 @@ function addColor() {
         motto: colorData[1],
     };
 
-
     // indexOf SADECE flat array (["red", "blue", "gray"] / [1 ,2 ,3]) için geçerlidir.
     // findIndexxOf Object Array'ler [{},{}] için geçerlidir.
     
