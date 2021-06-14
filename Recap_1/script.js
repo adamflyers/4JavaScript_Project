@@ -58,7 +58,6 @@ function addColor() {
     const searchedColorIndex = colors.findIndex(
         (myColor) => myColor.name === colorObject);
 
-        
     if(searchedColorIndex === -1) {
         document.querySelector("body").style.backgroundColor = colorObject.name;
         document.querySelector("#colorName").textContent = colorObject.name;
