@@ -47,6 +47,7 @@ function addColor() {
 
     const colorData = userInput.value.split(":");
     
+    
     const colorObject = {
         name: colorData[0],
         motto: colorData[1],
