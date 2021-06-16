@@ -1,6 +1,6 @@
 // Change Colors!
 
-//İlk önce dizileri (arrays) oluştuuyoruz.
+// 1) İlk önce dizileri (arrays) oluştuuyoruz.
 
 const colors = [
     {
@@ -25,15 +25,16 @@ const colors = [
     },
 ];
 
-
+// 2) HTML dosyasında oluşturduğumuz öğeleri (buton, boşluk vs) seçerek isim verip fonksiyon atıyoruz.
 const addColorButton = document.querySelector("#setColorButton");
 const randomColorButton = document.querySelector("#randomColorButton");
 
+// 3) Fonksiyonlara isim ve olay atıyoruz. 
 
 addColorButton.addEventListener("click", addColor);
 randomColorButton.addEventListener("click", changeColors);
 
-// 1) Arraydan rastgele element(renk) seçmek
+// 4) Bu olaylara iç fonksiyon atıyoruz. (Arraydan rastgele element(renk) seçmek)
 
 function changeColors() {
     const randomIndex = Math.floor(Math.random()*colors.length);
