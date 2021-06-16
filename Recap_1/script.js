@@ -39,6 +39,8 @@ randomColorButton.addEventListener("click", changeColors);
 function changeColors() {
     const randomIndex = Math.floor(Math.random()*colors.length);
 
+    // 4a)  
+
     document.querySelector("#colorName").textContent = colors[randomIndex].name;
     document.querySelector("#colorDesc").textContent = colors[randomIndex].motto;
     document.querySelector("body").style.backgroundColor = colors[randomIndex].name;
