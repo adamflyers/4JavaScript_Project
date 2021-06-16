@@ -1,5 +1,7 @@
 // Change Colors!
 
+//İlk önce dizileri (arrays) oluştuuyoruz.
+
 const colors = [
     {
         name: "red",
@@ -22,6 +24,7 @@ const colors = [
         motto: "Deep Purple",
     },
 ];
+
 
 const addColorButton = document.querySelector("#setColorButton");
 const randomColorButton = document.querySelector("#randomColorButton");
