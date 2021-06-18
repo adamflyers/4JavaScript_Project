@@ -34,6 +34,7 @@ const randomColorButton = document.querySelector("#randomColorButton");
 addColorButton.addEventListener("click", addColor);
 randomColorButton.addEventListener("click", changeColors);
 
+
 // 4) Bu olaylara iç fonksiyon atıyoruz. 
 
 function changeColors() {
