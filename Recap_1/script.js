@@ -70,6 +70,7 @@ function addColor() {
     };
 
     // indexOf SADECE flat array (["red", "blue", "gray"] / [1 ,2 ,3]) için geçerlidir.
+
     // findIndexxOf Object Array'ler [{},{}] için geçerlidir.
     
     // 5d) Mükerrer renk girdisini ikaz edip engellemek
