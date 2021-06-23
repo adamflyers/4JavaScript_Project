@@ -78,6 +78,7 @@ function addColor() {
     // 5d1) Renk girdisini mükerrerliğinin kontrolü için öncekilerin ismininin fonksiyona atanması
 
     const searchedColorIndex = colors.findIndex(
+        
         (myColor) => myColor.name === colorObject);
 
     // 5d2) Girdinin öncekilerle kontrolünün yapılması
