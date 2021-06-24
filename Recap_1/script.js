@@ -1,3 +1,22 @@
+// 1) İlk önce dizileri (arrays) oluşturuyoruz.
+// 2) HTML dosyasında oluşturduğumuz öğeleri (buton, boşluk vs) seçerek isim verip fonksiyon atıyoruz.
+// 3) Fonksiyonlara isim ve olay atıyoruz. 
+// 4) Bu olaylara iç fonksiyon atıyoruz.
+    // 4a) Arraydan rastgele element(renk) seçmek
+    // 4b) Rastgele seçilen rengin ismini, mottosunu ekrana yazdırmak ve arka plan rengini değiştirmek 
+// 5) Kullanıcının girdiği string'i (renk ve mottosunu) renk listesine eklemek ve arkaplanı o renk yapmak
+    // 5a) HTML sayfasındaki girdi yapılan element'i seçip fonksiyon atamak 
+    // 5b) Fonksiyon atanılan elementi istenilen formata dönüştürmek için bölmek
+    // 5c) Fonksiyonun Bölünen değerlerini isim ve mottoya atamak 
+    // indexOf SADECE flat array (["red", "blue", "gray"] / [1 ,2 ,3]) için geçerlidir.
+    // findIndexxOf Object Array'ler [{},{}] için geçerlidir.
+    // 5d) Mükerrer renk girdisini ikaz edip engellemek
+        // 5d1) Renk girdisini mükerrerliğinin kontrolü için öncekilerin ismininin fonksiyona atanması
+        // 5d2) Girdinin öncekilerle kontrolünün yapılması
+        // 5d3) Farklı ise sıra dizinine dahil edilmesi ve ekranın temizlenmesi
+        // 5d4) Aynı ise ikaz etmesi
+
+
 // Change Colors!
 
 // 1) İlk önce dizileri (arrays) oluştuuyoruz.
