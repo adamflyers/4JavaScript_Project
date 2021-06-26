@@ -1,6 +1,6 @@
 // 1) İlk önce dizileri (arrays) oluşturuyoruz.
 // 2) HTML dosyasında oluşturduğumuz öğeleri (buton, boşluk vs) seçerek isim verip fonksiyon atıyoruz.
-// 3) Fonksiyonlara isim ve olay atıyoruz. 
+// 3) Fonksiyonlara olay ve isim atıyoruz. 
 // 4) Bu olaylara iç fonksiyon atıyoruz.
     // 4a) Arraydan rastgele element(renk) seçmek
     // 4b) Rastgele seçilen rengin ismini, mottosunu ekrana yazdırmak ve arka plan rengini değiştirmek 
@@ -48,7 +48,7 @@ const colors = [
 const addColorButton = document.querySelector("#setColorButton");
 const randomColorButton = document.querySelector("#randomColorButton");
 
-// 3) Fonksiyonlara isim ve olay atıyoruz. 
+// 3) Fonksiyonlara çağırmak için isim ve yapacağı olay atıyoruz. 
 
 addColorButton.addEventListener("click", addColor);
 randomColorButton.addEventListener("click", changeColors);
@@ -115,6 +115,7 @@ function addColor() {
         // 5d4) Aynı ise ikaz etmesi
 
     } else {
+        
         alert("renk zaten mevcut");
     }
 }
