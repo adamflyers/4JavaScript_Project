@@ -17,6 +17,7 @@
         // 5d4) Aynı ise ikaz etmesi
 
 
+        
 // Change Colors!
 
 // 1) İlk önce dizileri (arrays) oluştuuyoruz.
@@ -83,7 +84,7 @@ function addColor() {
     // 5c) Fonksiyonun Bölünen değerlerini isim ve mottoya atamak 
 
     const colorObject = {
-        
+
         name: colorData[0],
         motto: colorData[1],
     };
