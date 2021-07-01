@@ -17,7 +17,6 @@
         // 5d4) Aynı ise ikaz etmesi
 
 
-        
 // Change Colors!
 
 // 1) İlk önce dizileri (arrays) oluştuuyoruz.
