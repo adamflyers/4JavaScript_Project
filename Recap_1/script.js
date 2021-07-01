@@ -83,6 +83,7 @@ function addColor() {
     // 5c) Fonksiyonun Bölünen değerlerini isim ve mottoya atamak 
 
     const colorObject = {
+        
         name: colorData[0],
         motto: colorData[1],
     };
