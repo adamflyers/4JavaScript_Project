@@ -103,6 +103,7 @@ function addColor() {
     // 5d2) Girdinin öncekilerle kontrolünün yapılması
 
     if(searchedColorIndex === -1) {
+        
         document.querySelector("body").style.backgroundColor = colorObject.name;
         document.querySelector("#colorName").textContent = colorObject.name;
         document.querySelector("#colorName").textContent = colorObject.motto;
