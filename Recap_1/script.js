@@ -111,7 +111,7 @@ function addColor() {
         // 5d3) Farklı ise sıra dizinine dahil edilmesi ve ekranın temizlenmesi
 
         colors.push(colorObject);
-        
+    
         userInput.value = "";
         userInput.focus();
         
@@ -120,5 +120,5 @@ function addColor() {
     } else {
         
         alert("renk zaten mevcut");
-    }
+    };
 }
