@@ -1,3 +1,5 @@
 let b1 = document.getElementsByClassName("b1")[0];
 
-function B1
+function b1(){
+    
+}
