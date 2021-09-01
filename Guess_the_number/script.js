@@ -11,7 +11,6 @@ document.getElementById("check-button").addEventListener("click", function()){
     checkNumber();
 }
 
-
 //Enter trigger
 document
     .getElementById("number-input")
