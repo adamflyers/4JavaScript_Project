@@ -20,12 +20,10 @@ document
         }
     });
 
-
 //Define Function
 function checkNumber() {
     console.log("Press check number button");
 }
-
 
 //Get numbber from input
 guessedNumber = nrInput.value;
