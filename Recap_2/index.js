@@ -1,2 +1,2 @@
 
-const color 
+const color = document.getElementById()
