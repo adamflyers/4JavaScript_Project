@@ -1,2 +1,2 @@
 
-const color = document.getElementById()
+const color = document.getElementById("color1");
