@@ -19,6 +19,7 @@ const color1 = document.getElementById("color2");
 
 
 const color1 = document.getElementById("color2");
+
 const color1 = document.getElementById("color2");
 
 
