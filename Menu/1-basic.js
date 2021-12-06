@@ -123,5 +123,6 @@ const menu = [
     displayMenu = displayMenu.join("");
     // console.log(displayMenu);
   
+    GS
     sectionCenter.innerHTML = displayMenu;
   }
