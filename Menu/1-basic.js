@@ -119,6 +119,7 @@ const menu = [
               </p>
             </div>
           </article>`;
+          
     });
     displayMenu = displayMenu.join("");
     // console.log(displayMenu);
