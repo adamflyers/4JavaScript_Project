@@ -120,7 +120,6 @@ const menu = [
             </div>
           </article>`;
           
-          
     });
     displayMenu = displayMenu.join("");
     // console.log(displayMenu);
