@@ -1,17 +1,26 @@
+let dugme = document.getElementsByTagName("button");
+let ekran = document.getElementsByClassName("ekran1")[0];
+let hesapla = document.getElementById("hesapla");
+let temizle = document.getElementById("temizle");
 
-document.getElementById("btn_1").addEventListener("click", sumNumbers);
+for ( var i = 0; i < 16; i ++) {
+    if( i !=12 && i != 14){
+        dugme[i].addEventListener("click", yazdir);
+    };
+};
 
+function yazdir() {
+    ekran.value = ekran.value + this.value;
+};
 
-function sumNumbers() {
-    const num_1 = document.getElementById("inp_1").value;
-    const num_2 = document.getElementById("inp_2").value;
+temizle.addEventListener("click", temiz);
 
+function temiz() {
+    ekran.value = " ";
+};
 
-    if(isNaN(num_1) || isNaN(num_2))
-        return alert("Not a number")
-        
-    const result = parseInt(num_1) + parseInt(num_2);
+hesapla.addEventListener("click", hesap);
 
-
-    document.getElementById("res").innerHTML = result;
-}
+function hesap() {
+    ekran.value = eval(ekran.value);
+};

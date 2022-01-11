@@ -1,0 +1,72 @@
+body {
+  background-color: cadetblue;
+}
+.ortala {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+.d1 {
+  height: 200px;
+  width: 200px;
+  background-color: brown;
+  border-radius: 100px;
+}
+.d2 {
+  height: 200px;
+  width: 200px;
+  background-color: chartreuse;
+  border-radius: 100px;
+  margin-top: 10px;
+}
+.butonlar {
+  margin-top: 20px;
+}
+.b1 {
+  height: 50px;
+  width: 150px;
+  background-color: darkorange;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: black;
+  margin-right: 30px;
+}
+.b1:hover,
+.b2:hover,
+.b3:hover {
+  cursor: pointer;
+}
+.b2 {
+  height: 50px;
+  width: 150px;
+  background-color: darkorange;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: black;
+  margin-right: 30px;
+}
+.b3 {
+  height: 50px;
+  width: 150px;
+  background-color: darkorange;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: black;
+}
+.goster {
+  display: block;
+}
+.gizle {
+  display: none;
+}
+.gecis {
+  display: none;
+}

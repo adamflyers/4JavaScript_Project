@@ -11,7 +11,6 @@ document.getElementById("check-button").addEventListener("click", function()){
     checkNumber();
 }
 
-
 //Enter trigger
 document
     .getElementById("number-input")
@@ -21,12 +20,10 @@ document
         }
     });
 
-
 //Define Function
 function checkNumber() {
     console.log("Press check number button");
 }
-
 
 //Get numbber from input
 guessedNumber = nrInput.value;
