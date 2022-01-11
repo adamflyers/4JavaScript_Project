@@ -81,10 +81,15 @@ const menu = [
   },
 ];
 
+// Sayfa yüklendiği anda çalışan bir metot (DomContentLoaded) ekledik ve metoda bir kaç işlem yüklüyoruz.
+// menüyü listelemek için olay ve isim ekliyoruz.
+
 window.addEventListener("DOMContentLoaded", function () {
   displayMenuItems(menu);
   displayCategoryItems();
 });
+
+//  
 
 const sectionElement = document.querySelector(".section-center");
 const categoryElement = document.querySelector(".btn-container");
