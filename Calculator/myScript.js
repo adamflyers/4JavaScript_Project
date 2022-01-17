@@ -21,7 +21,6 @@ function temiz() {
 
 hesapla.addEventListener("click", hesap);
 
-
 function hesap() {
     ekran.value = eval(ekran.value);
 };
