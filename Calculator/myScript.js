@@ -3,6 +3,7 @@ let ekran = document.getElementsByClassName("ekran1")[0];
 let hesapla = document.getElementById("hesapla");
 let temizle = document.getElementById("temizle");
 
+
 for ( var i = 0; i < 16; i ++) {
     if( i !=12 && i != 14){
         dugme[i].addEventListener("click", yazdir);
